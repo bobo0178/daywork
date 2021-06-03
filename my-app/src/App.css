@@ -1,0 +1,25 @@
+.link{
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    width: 80px;
+    height: 40px;
+    background-color:rgb(77, 180, 221);
+    margin:20px 20px 20px 0;
+}
+.active{
+
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    width: 80px;
+    height: 40px;
+    background-color:rgb(77, 221, 137);
+    margin:20px 20px 20px 0;
+}
