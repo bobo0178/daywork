@@ -1,0 +1,40 @@
+.content{
+    width: 100px;
+    height: 200px;
+   overflow: auto; 
+}
+.fixed{
+    position: fixed;
+    bottom: 100px;
+    right:150px;
+}
+.btn{
+    
+    position: fixed;
+    bottom: 100px;
+    right:50px;
+    animation-name: btn;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes btn{
+    0% {opacity: 0;right: 0;bottom: 200px;}
+    100% {opacity: 1;right: 50px;bottom: 100px;}
+}
+.btn2{
+    opacity: 0;
+    position: fixed;
+    bottom: 100px;
+    right:50px;
+    animation-name: btn2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes btn2{
+    0% {opacity: 100%;}
+    100% {opacity: 0;}
+}
+.first{
+    visibility: hidden;
+}
+
